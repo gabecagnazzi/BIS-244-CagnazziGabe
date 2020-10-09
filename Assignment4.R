@@ -9,7 +9,8 @@ Twitch$Date <- as.Date(Twitch$Date, "%m/%d/%Y")
 
 p <- ggplot(data=Twitch, 
             aes(x = Date, 
-                y= Viewers, group = Streamer, colour = as.factor(Streamer)))
+                y= Viewers, 
+                group = Streamer, colour = as.factor(Streamer)))
 
 p + geom_line()
 
