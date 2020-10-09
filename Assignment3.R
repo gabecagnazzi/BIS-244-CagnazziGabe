@@ -17,3 +17,5 @@ p <- ggplot() +
        colour = "Cases or Deaths")
 
 p
+
+
